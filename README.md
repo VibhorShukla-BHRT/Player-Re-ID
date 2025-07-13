@@ -5,6 +5,20 @@ An advanced object tracking system for football videos, built on **YOLOv8**, cus
 ---
 >Note: Resource & Source code (Notebook) can be found in [Project folder on Google Drive](https://drive.google.com/drive/folders/1szBJ0ipeNwlAqlVpOjWmbF9ItF4v2i14?usp=sharing)
 
+## Statement:
+Given a 15-second video (`15sec_input_720p.mp4`), identify each player and ensure that players who go out of frame and reappear are assigned the same identity as before.
+Instructions:
+
+- Use the provided object detection model to detect players throughout the clip.
+
+- Assign player IDs based on the initial few seconds.
+
+- Maintain the same ID for players when they re-enter the frame later in the video (e.g., near the goal event).
+
+- The solution should simulate real-time re-identification and player tracking.
+
+---
+
 ## 🧩 Project Highlights
 
 - 🎯 YOLOv8 for accurate player & ball detection  
