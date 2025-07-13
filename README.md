@@ -55,8 +55,6 @@ ROOT_DIR = '/content/gdrive/My Drive/Stealth Intern Project' #here enter the pat
 VIDEO_PATH = f'{ROOT_DIR}/15sec_input_720p.mp4'
 MODEL_PATH = f'{ROOT_DIR}/best.pt' #model should be inside that folder
 OUTPUT_PATH = f'{ROOT_DIR}/output_id_track05.mp4' #if desired, change the output file name
-
-process_enhanced_video(VIDEO_PATH, MODEL_PATH, OUTPUT_PATH)
 ```
 
 Once set-up run the cell in google colab.
